@@ -1,1 +1,4 @@
-test!!
+
+<img width="951" alt="Screen Shot 2023-10-23 at 5 58 10 PM" src="https://github.com/kieubo90/Net_practice-42/assets/88286643/b612902f-be95-429f-8df1-79c5e301ad96">
+
+In this exercise, we need to identify the switch that will connect three interfaces: A1, B1, and C1. This means that all of them must have the same subnet mask, corresponding to the same host. In this case, the host has a subnet mask of 255.255.255.128, which allows for 2 hosts and 127 local connections. By default, the subnet mask is set to 255.255.255.128. The IP address of A1 is also set by default to 104.198.185.125. Therefore, the IP addresses for B1 and C1 should fall between .1 and .127 in the last octet, excluding .0, .125 (since A1 uses .125), and .128. Additionally, B1 and C1 cannot have the same value in the last octet.
